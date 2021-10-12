@@ -1,1 +1,27 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+body {
+    font-family: "Lucida Console", sans-serif;
+}
+
+.form-div {
+    margin: 10px;
+}
+
+.data-set, .review-set {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.review-set {
+    align-items: start;
+}
+
+.review-set {
+    margin: 10px;
+}
+
+#name-input,#age-input {
+    margin-left: 5px;
+}
