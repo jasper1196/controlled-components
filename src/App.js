@@ -22,7 +22,7 @@ function App() {
         console.log(state.fullName);
         console.log(state.age);
         console.log(state.review);
-        console.log(newsletterChecked);
+        console.log("test");
         e.preventDefault();
     }
 
